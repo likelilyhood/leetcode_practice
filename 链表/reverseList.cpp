@@ -31,7 +31,24 @@ class Solution {
             return pre;
         }
     };
+class Soultion2{
+    public:
+        ListNode* reverseList(ListNode* head){
+            return myreverseList(head);
+        }
+    private:
+        ListNode* myreverseList(ListNode* head){
+            if(head==nullptr||head->next==nullptr){
+                return head;
+            }
+            ListNode* newhead=myreverseList(head->next);
+            head->next->next=head;
+            head->next=nullptr;
+            return newhead;
+        }
+};
 int main(){ 
+
     ListNode *head=new ListNode(1);
     head->next=new ListNode(2);
     head->next->next=new ListNode(3);
@@ -41,5 +58,7 @@ int main(){
     for(ListNode *cur=newhead;cur!=nullptr;cur=cur->next){
         cout<<cur->val<<" ";
     }
+
+    
     return 0;
 }
