@@ -27,7 +27,7 @@ class Solution {
 
 int main(){
     Solution s;
-    cout<<s.canConstruct("a","b")<<endl;
+    cout<<s.canConstruct("a","hgfadacb")<<endl;
     cout<<s.canConstruct("aa","ab")<<endl;
     cout<<s.canConstruct("aa","aab")<<endl;
     return 0;
