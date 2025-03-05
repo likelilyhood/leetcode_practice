@@ -14,8 +14,7 @@ class Solution{
         n=getSum(n);
 
     }
-    return true;
-    
+    return true;    
 }
     private:
     int getSum(int n){
