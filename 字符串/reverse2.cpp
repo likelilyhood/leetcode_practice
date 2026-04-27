@@ -1,6 +1,6 @@
 #include <iostream>
-#include<vector>
-#include<bits/stdc++.h>
+#include <algorithm>
+#include <string>
 using namespace std;
 class Soution{
 public:

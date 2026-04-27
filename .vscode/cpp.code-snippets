@@ -1,0 +1,32 @@
+{
+  "LeetCode Cpp Template (common.hpp)": {
+    "prefix": "cppmain",
+    "body": [
+      "#include \"${1:../common.hpp}\"",
+      "",
+      "int main() {",
+      "    ios::sync_with_stdio(false);",
+      "    cin.tie(nullptr);",
+      "",
+      "    ${0}",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C++ default template for this workspace (uses common.hpp)"
+  },
+  "LeetCode Cpp Template (root file)": {
+    "prefix": "cppmainroot",
+    "body": [
+      "#include \"common.hpp\"",
+      "",
+      "int main() {",
+      "    ios::sync_with_stdio(false);",
+      "    cin.tie(nullptr);",
+      "",
+      "    ${0}",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C++ template for files directly under leetcode_practice"
+  }
+}
